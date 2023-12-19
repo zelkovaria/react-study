@@ -1,15 +1,11 @@
 import "../src/App.css";
+import { Component } from "react";
 
-function App() {
-  const name = "쿼카";
-  return (
-    <>
-      <div className="react">{name}</div>
-      //주석 /* 주석 */
-      {/* 주석 */}
-      <input />
-    </>
-  );
+class App extends Component {
+  render() {
+    const name = "react";
+    return <div className="react">{name}</div>;
+  }
 }
 
 export default App;
