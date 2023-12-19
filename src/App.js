@@ -1,12 +1,11 @@
-import logo from "./logo.svg";
-import "./App.css";
+import "../src/App.css";
 
 function App() {
+  const name = "쿼카";
   return (
-    <>
-      <h1>리액트 안녕!</h1>
-      <h2>잘 작동하니?</h2>
-    </>
+    <div>
+      {name === "쿼카" ? <h1>쿼카입니다.</h1> : <h2>쿼카가 아닙니다.</h2>}
+    </div>
   );
 }
 
