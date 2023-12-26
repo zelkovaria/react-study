@@ -30,7 +30,7 @@ class ValidationSample extends Component {
           onChange={this.handleChange}
           className={
             this.state.clicked
-              ? this.state.validate
+              ? this.state.validated
                 ? "success"
                 : "failure"
               : ""

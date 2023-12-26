@@ -1,8 +1,8 @@
 import "../src/App.css";
-import EventPractice from "./EventPractice";
+import ValidationSample from "./ValidationSample";
 
 const App = () => {
-  return <EventPractice />;
+  return <ValidationSample />;
 };
 
 export default App;
